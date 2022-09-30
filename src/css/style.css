@@ -1,0 +1,433 @@
+body{
+    font-family: Arial, sans-serif
+}
+
+nav {
+    background-color: #344051;
+    height: 70px;
+    width: 100%
+}
+
+.logo{
+    font-size: 20px;
+    float: left;
+    line-height: 70px;
+    color: white;
+    padding-left: 20%;
+}
+.menu{
+    float: right;
+    padding-right: 10%;
+}
+.menu li{
+    color: white;
+    font-size: 19px;
+    float:right;
+    line-height: 70px;
+    margin-right: 40px;
+}
+.menu a{
+    color: white;
+}
+.main {
+    height: 600px;
+    background: url(../img/parenmain.png) 90% 100%/auto 85% no-repeat, url(../img/backfonmain.png) center/cover no-repeat;
+}
+.title_container{
+    float: left;
+    text-align: center;
+    color: #2c384a;
+    margin: 240px 0px 0px 260px ;
+}
+.title_container h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.title_container h4{
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
+}
+.title_container input{
+    color: #2c384a;
+    border: 2px solid gray;
+    margin: 20px 15px 0px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 130px;
+    height: 40px;
+}
+.obomne{
+    width: 800px;
+    margin: 10px auto 15px auto;
+}
+.obomne h2{
+    width: 150px;
+    border-bottom: 3px solid orange;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #2c384a;
+    margin: 20px auto;
+    padding-bottom: 8px;
+}
+.obomne p{
+    color: #3f495a;
+}
+.obomne img{
+    display: block;
+    margin: 10px auto 20px auto
+}
+
+.obomne p{
+    font-size: 15px;
+    text-align: start;
+    margin-bottom: 10px;
+}
+.obomne input{
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 20px;
+    width: 100px;
+    margin: 20px auto 15px auto;
+}
+
+.downloadbutton{
+    height: 40px;
+    width: 145px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin: 20px auto 15px auto;
+
+}
+.downloadbutton img{
+    width: 25px;
+    float: left;
+    padding-left: 5px;
+}
+
+.downloadbutton a{
+    color: #3f495a;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 40px;
+    
+}
+.umeyu {
+    width: 100%;
+    background-image: url(../img/backphonumey.png)
+}
+.umeyu h2{
+    padding-top: 40px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 25px;
+    color: #2c384a;
+    font-weight: bold;
+    border-bottom: 3px solid orange;
+    width: 200px;
+    margin: 80px auto;
+}
+.umeyuicons{
+    width: 920px;
+    margin: 0 auto;
+}
+.umeyuicon{
+    width: 230px;
+    float: left;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.umeyuicon h4{
+    padding-top: 5px;
+    text-align: center;
+    font-size: 20px;
+    color: orange;
+}
+.umeyuicon p{
+    padding-top: 10px;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+.clear {
+    clear: left;
+}
+.keysi{
+    width: 1300px;
+margin: 0 auto;
+}
+.keysi h2 {
+    text-align: center;
+    width: 150px;
+    border-bottom: 5px solid orange;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2c384a;
+    margin: 20px auto;
+    padding-bottom: 15px;
+    
+}
+.keysi h3{
+text-align: center;
+font-size: 15px;
+margin: 20px auto 30px auto;
+}
+
+
+.nizkeysov {
+    display: inline-block;
+    width: 1200px;
+
+}
+
+.leftnizkeysov{
+    height: 100px;
+    width: 300px;
+    display: inline-block;
+    margin: 0 auto;
+
+}
+.leftnizkeysov h3 {
+    text-align: start;
+    font-size: 20px;
+}
+.leftnizkeysov p{
+    text-align: start;
+    font-size: 15px;
+}
+.nazvanieprojecta {
+    display: inline-block;
+width: 850px;
+}
+ .nazvanieprojecta h3{
+    text-align: start;
+    font-size: 20px;
+ }
+ .nazvanieprojecta p{
+    text-align: start;
+ }
+ .reschetstoymosti {
+    background-color: black
+    width: 100%;
+ }
+
+ .reschetstoymosti h2{
+    
+    margin: 15px auto;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+ }
+
+ .formastoymost {
+    text-align: start;
+    width: 800px;
+margin: 0 auto;
+
+ }
+ .formastoymost h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 10px;
+
+ }
+ .formastoymost select{
+    height: 35px;
+    background-color: #eeeeee;
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+    border: 1px solid grey;
+    font-size: 20px;
+ }
+ .resultstoymost {
+    width: 650px;
+    border-top: 2px solid gray;
+    margin-top: 25px;
+ }
+ .resultstoymost p{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top: 10px;
+ }
+ .statistika{
+    width: 100%;
+    height: 50%;
+    background-image: url(../img/backfonestatistika.svg);
+    margin: 0 auto;
+    
+ }
+ .statistika h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #2c384a;
+    border-bottom: 3px solid orange;
+    width: 300px;
+    margin: 30px auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+ }
+ .statistikaicons {
+    width: 900px;
+    margin: 0 auto;
+  
+ }
+ .statistikaicon {
+    display: inline-block;
+width: 200;
+text-align: center;
+margin: 0 auto;
+padding-right: 50px;
+
+ }
+ .statistikaicon h3{
+    margin-top: 15px;
+    font-size: 25px;
+    line-height: 30px;
+ }
+ .statistikaicon p{
+    color: #2c384a;
+    font-size: 20px;
+    margin-top: 10px;
+ }
+ .otzivi{
+    width: 800px;
+    margin: 0 auto;
+ }
+ .otzivi h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin: 40px auto;
+    border-bottom: 3px solid orange;
+    padding-bottom: 10px;
+    width: 100px;
+ }
+ .otzivi img{
+    margin: 40px 350px 40px;
+    
+ }
+ .otzivi p{
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 15px;
+ }
+
+ .moikontakty {
+    color: white;
+    width: 100%;
+    background-image: url(../img/backfonmoikontakti.png);
+    margin: 0 auto;
+ }
+ .moikontakty>h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    border-bottom: 3px solid orange;
+    width: 180px;
+ }
+ .moikontakty>p{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ margin-top: 35px;
+ margin-bottom: 20px;
+    text-align: center;
+ }
+.kontaktyinfoicons{
+ text-align: center;
+
+
+}
+.kontaktyinfoicon{
+    text-align: center;
+    display: inline-block;
+    width: 200;
+    text-align: center;
+    margin: 0 auto;
+    padding-right: 50px;
+    
+}
+.kontaktyinfoicon p{
+
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 5px;
+    line-height: 20px;
+    margin: 0 auto;
+    
+}
+.kontaktyinfoicon img{
+
+}
+
+.ostavtesoobshenie {
+    width: 100%;
+    margin: 30px auto;
+}
+.ostavtesoobshenie>h2{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.ostavtesoobshenie form {
+    width: 100%;
+    margin: 0 auto;
+}
+.obratnayasvaz {
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+.obratnayasvaz input{
+    height: 30px;
+    background-color: #999;
+    display: inline-block;
+    padding-left: 15px;
+    width: 300px;
+    margin-bottom: 30px;
+    margin-inline: 30px;
+    border-radius: 3px;
+    
+}
+.obratnayasvaz textarea {
+width: 700px;
+background-color: #999;
+border-radius: 5px;
+}
+.socialicon{
+text-align: center;
+margin: 0 auto;
+padding-bottom: 30px;
+}
+.socialicon img{
+    padding-left: 50px;
+}
+
+footer{
+    color: white;
+    font-size: 20px;
+    background-color: #354051 ;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    text-align: center;
+}
+{}
